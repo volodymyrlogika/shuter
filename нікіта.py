@@ -5,7 +5,7 @@ from pygame import *
 mixer.init()
 font.init()
 mixer.music.load('space.ogg')
-# mixer.music.play()
+mixer.music.play()
 mixer.music.set_volume(0.1)
 fire_sound = mixer.Sound('fire.ogg')
 
